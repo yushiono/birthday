@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body id="body">
+  <div id="container">
+    <div id="form">
+      <p id="sentence">In starting birthday diagnosis, please fill out the form.</p>
+      <form>
+        <label id="label"><span id="birthday">Birthday:</span>Year<input type="text" id="year" required autofocus>Month<input type="text" id="month" required>Date<input type="text" id="date" required></lebel>
+        <input id="btn" class="disabled" type="button" value="Diagnose">
+      </form>
+      <div>
+        <p id="error1">There is an error in the birth date you entered.</p>
+        <p id="error2">Please enter half-width numeric characters.</p>
+      </div>
+      <div id="result">
+        <p id="result1"></p>
+        <p id="result2"></p>
+        <p id="result3"></p>
+        <p id="result4"></p>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
