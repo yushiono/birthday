@@ -1,0 +1,57 @@
+@charset "UTF-8";
+#body {
+  font-size: 16px;
+  background: #A9D0D7;
+}
+ul, li {
+  list-style: none;
+}
+#container {
+  margin: 0 auto;
+  width: 650px;
+  text-align: center;
+}
+#form {
+  margin-top: 40px;
+}
+#label {
+  font-weight: normal;
+}
+#year, #month, #date {
+  border-style: none;
+  border: solid 1px #000;
+  border-radius: 3px;
+  margin: 0 10px;
+  width: 60px;
+  height: 2em;
+  text-align: center;
+  color: #000;
+}
+#birthday {
+  margin-right:20px;
+}
+#btn {
+  display: block;
+  margin: 15px auto;
+  width: 400px;
+  border-style: none;
+  background-color: #fff;
+  border: solid 1px #000;
+  color: #000;
+  height: 2em;
+}
+.disabled {
+  opacity: 0.7;
+}
+#error1, #error2 {
+  display: none;
+  margin-top: 20px;
+  color: #C3002F;
+}
+#result {
+  display: none;
+  margin-top: 20px;
+}
+#result p {
+  margin-top: 60px;
+}
